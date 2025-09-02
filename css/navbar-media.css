@@ -1,0 +1,112 @@
+﻿
+/*sm*/
+@media(max-width:767px) {
+
+    .dropdown-menu {
+        border-top: 1px solid #3757a4;
+    }
+
+    .navbar-nav .nav-link {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .navbar-nav .dropdown-menu > li > a {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+
+    .navbar-toggler {
+        color: #4eaedf;
+        margin-top: 0px;
+    }
+
+    #img-brand {
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+       
+    }
+
+    .navbar-nav .nav-link.active:hover {
+        background-color: #212529;
+        color: white;
+    }
+
+
+    /*   .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:focus {
+        background-color: #3757a4;
+        color: #fff;
+        padding-right: 40px; 
+    }*/
+
+
+    .account-left {
+        float: right;
+        /*border:1px solid blue;*/
+    }
+
+
+    p {
+        font-size: 12px;
+        color: green;
+    }
+}
+
+/*md*/
+@media(min-width:768px) and (max-width:991px) {
+    .dropdown-menu {
+        border-top: 1px solid #3757a4;
+    }
+
+    .navbar-nav .nav-link.active:hover {
+        background-color: #212529;
+        color: white;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 36px;
+        color: red;
+    }
+}
+
+/*lg*/
+@media(min-width:992px) and (max-width:1199px) {
+
+    .account-left {
+        float: left;
+    }
+
+    p {
+        font-size: 48px;
+        color: blue;
+    }
+}
+
+/*xl*/
+@media(min-width:1200px) and (max-width:1399px) {
+
+    .account-left {
+        float: left;
+    }
+}
+
+/*xxl*/
+@media(min-width:1400px) {
+
+    .account-left {
+        float: left;
+    }
+}

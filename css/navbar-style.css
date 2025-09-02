@@ -1,0 +1,100 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+
+body {
+    font-family: 'Almarai', sans-serif;
+    font-size: 15px;
+    /*height: 1000px;*/
+    padding-top: 60px; /*لأنها fixed-top*/
+    padding-bottom: 50px;
+}
+
+.carouselImg {
+    height: 400px;
+}
+
+footer{
+    padding-top:500px;
+}
+
+/*.footer {
+    padding-top: 500px;
+}*/
+
+.navbar {
+    min-height: 10px;
+    
+}
+
+.company-brand {
+    font-family: "Cairo Play", sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+   
+}
+
+
+.navbar-brand {        
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Cairo Play', sans-serif; /* اختر خطًا عربيًا أنيقًا */
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px; /* مسافة بين الشعار واسم المشروع */
+    color: #ffffff;
+   
+}
+
+#img-brand {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+
+.nav-link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    color:white;
+}
+
+   .nav-link.active {
+        color: #e2ecc7;
+    }
+
+        .nav-link.active:hover {
+            background-color: white;
+        }
+
+
+/*-------------------------------------------------------------------------------------*/
+.dropdown-menu {
+    border-top: 5px solid #3757a4;
+    padding: 10px 15px;
+    min-width: 200px;
+}
+
+    .dropdown-menu > li > a {
+        color: #a5a3a3;
+        padding: 10px 25px;
+        font-size: 14px;
+        transition: all 0.5s ease;
+    }
+
+        .dropdown-menu > li > a:hover,
+        .dropdown-menu > li > a:focus {
+            background-color: #3757a4;
+            color: #fff;
+            padding-right: 40px;
+            border-radius: 5px;
+        }
+
+.dropdown-divider {
+    background-color: #3757a4;
+}
+
+
+/*-------------------------------------------------------------------------------------*/

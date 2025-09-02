@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>شاشة الدخول</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <!--<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />-->
+    <link href="bootstrap/css/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="../css/navbar-style.css" rel="stylesheet" />
+    <link href="../css/navbar-media.css" rel="stylesheet" />
+
+
+    <!-- Bootstrap CSS -->
+    <link href="fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="fonts/fontawesome/css/solid.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo Play:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top border border-bottom border-body  p-2">
+        <div class=" container-fluid  ">
+            <a class="navbar-brand" href="index.html">
+
+                <img src="img/images (1).jpeg" width="40" height="40" class="d-inline-block align-text-top navbar-brand-img" />
+                طلبات الصيانة
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                    <li class="nav-item"> <a class="nav-link" href="index.html"> الرئيسية</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="order.html"> تقديم طلب</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="listorder.html"> عرض الطلبات</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="itmanger.html"> مدير it</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="engrep.html"> القسم الفنى</a> </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle notification-icon" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="bi bi-bell" style="color:red;"> </i>
+                            <span class="notification-badge"> 3</span>
+                        </a>
+                </ul>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="\register.html">تسجيل</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="\login.html">دخول</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+    </nav>
+    <footer class="text-white text-center py-3 mt-5 fixed-bottom ">
+        &copy; 2025 - منظومة طلبات الصيانة | المؤسسة الإدارية
+    </footer>
+    <div class="container d-flex justify-content-center align-items-center mt-5 mb-5" style="min-height:90vh;">
+        <div class="card mt-5 mb-4 p-4" style="max-width: 450px; width: 100%;">
+            <div class="text-center">
+
+                <h4 class="mt-2">تسجيل الدخول</h4>
+            </div>
+
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">البريد الالكتروني</label>
+                        <input type="email" class="form-control" id="fullName" placeholder="أدخل اسمك الكامل" required>
+                    </div>
+
+
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">كلمة المرور</label>
+                        <input type="password" class="form-control" id="password" placeholder="********" required>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">تذكرني</label>
+                        </div>
+                        <a href="#" class="small text-decoration-none">نسيت كلمة المرور؟</a>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">🔑 دخول</button>
+                </form>
+
+                <div class="text-center mt-3">
+                    <small>ليس لديك حساب؟ <a href="#" class="text-decoration-none">سجل الآن</a></small>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+</body>
+</html>
